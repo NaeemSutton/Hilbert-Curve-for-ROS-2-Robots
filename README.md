@@ -139,7 +139,7 @@ sudo apt install ros-humble-slam-toolbox
 ```
 
 
-# setup instructions for our Hilbert Curve for ROS 2 Robots code repository.
+# Setup instructions for our code repository.
 
 ## Overview
 
