@@ -51,7 +51,6 @@ Follow the instructions below to install each component:
 - [Installing ROS2](#installing-ros2)
 - [Installing SLAM Toolbox](#installing-slam-toolbox)
 - [Installing Navigation 2](#installing-navigation-2)
-- [System Setup](#system-setup)
 
 ## Installation Details
 
