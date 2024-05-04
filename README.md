@@ -1,5 +1,3 @@
-@mainpage Introduction
-
 # Research Project: Exploration and Navigation with ROS 2
 
 ## Introduction
