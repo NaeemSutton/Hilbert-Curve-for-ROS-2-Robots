@@ -1,4 +1,4 @@
-# Research Project: Exploration and Navigation with ROS 2
+# "Exploring ROS 2 Navigation: A Hilbert Curve Approach"
 
 ## Introduction
 
