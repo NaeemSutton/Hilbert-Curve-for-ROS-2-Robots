@@ -138,6 +138,59 @@ sudo apt install ros-humble-rmw-cyclonedds-cpp
 sudo apt install ros-humble-slam-toolbox
 ```
 
+
+# setup instructions for our Hilbert Curve for ROS 2 Robots code repository.
+
+## Overview
+
+This guide provides step-by-step instructions on how to download and use the code from our repository.
+
+## Downloading the Code
+
+1. Open a terminal.
+
+2. Clone the repository using the `git clone` command:
+
+   ```bash
+   git clone https://github.com/NaeemSutton/Hilbert-Curve-for-ROS-2-Robots.git
+   ```
+3. Navigate to the downloaded directory:
+
+   ```bash
+   cd .../Hilbert-Curve-for-ROS-2-Robots
+   ```
+
+   ## Downloading the Code
+
+4. Ensure that the Python script has execute permissions. If not, use the chmod command to add execute permissions:
+
+    ```bash
+    chmod +x hilbert_curve_navigation.py
+    ```
+
+5. Make sure ROS 2 is properly installed on your system. If not, you can follow the instructions provided earlier.
+
+6. Source your ROS 2 installation:
+
+    ```bash
+    source /opt/ros/humble/setup.bash
+    ```
+7. Build the workspace:
+    ```bash
+    colcon build
+    ```
+8. Source your workspace:
+    ```bash
+    source install/setup.bash
+    ``` 
+9. Run the Python script using ROS 2 commands:
+
+```bash
+   python3 nav.py
+   ```
+
+
+
 ## Conclusion
 
 In conclusion, our research project aims to advance the state-of-the-art in robot navigation by implementing the Hilbert Curve algorithm alongside ROS 2 and other advanced technologies. Through our experimentation and analysis, we seek to provide valuable insights and solutions for enhancing the navigation capabilities of vacuum robots and other robotic platforms.
