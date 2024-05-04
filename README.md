@@ -18,7 +18,7 @@ Our hardware setup includes:
 - **LiDAR Camera**: Essential for mapping and localization tasks.
 - **Ubuntu 22.04**: The operating system for running ROS 2 and related software.
 
-<img src="second.png" alt="Project Image" width="300">
+ <img src="https://camo.githubusercontent.com/1c5fd5dd9a040804fbbbfc1951dc11d20b60228061170e13a68ba5662ad64dca/68747470733a2f2f69726f626f74656475636174696f6e2e6769746875622e696f2f637265617465335f646f63732f6578616d706c65732f646174612f637265617465335f6c696461725f746f702e6a7067" alt="Google Logo" width="400">
 
 ## Software Components
 
