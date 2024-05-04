@@ -38,7 +38,7 @@ Our methodology involves the following steps:
 3. **Experimentation**: Conducting experiments to evaluate the performance of our navigation system in various environments.
 4. **Analysis and Optimization**: Analyzing experimental results and exploring optimizations to improve navigation performance.
 
-# Welcome to the instructions for setting up ROS2, SLAM Toolbox, Navigation 2 and downloading our code.
+# instructions for setting up ROS2, SLAM Toolbox, Navigation 2 and downloading our code.
 
 ## Overview
 
