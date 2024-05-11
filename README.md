@@ -178,8 +178,6 @@ This guide provides step-by-step instructions on how to download and use the cod
     Install all libraries for HilbertCurve if needed, install pip if needed on a fresh device
  7.  ```bash
     sudo pip3 install transforms3d
-    sudo apt install tf_transformations
-    pip install hilbertcurve
     ```
 
 8. Build the workspace:
