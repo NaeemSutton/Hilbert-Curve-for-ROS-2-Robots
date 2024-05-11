@@ -160,7 +160,6 @@ This guide provides step-by-step instructions on how to download and use the cod
    cd .../Hilbert-Curve-for-ROS-2-Robots
    ```
 
-   ## Downloading the Code
 
 4. Ensure that the Python script has execute permissions. If not, use the chmod command to add execute permissions:
 
@@ -175,20 +174,49 @@ This guide provides step-by-step instructions on how to download and use the cod
     ```bash
     source /opt/ros/humble/setup.bash
     ```
-7. Build the workspace:
+
+    Install all libraries for HilbertCurve if needed, install pip if needed on a fresh device
+ 7.  ```bash
+    sudo pip3 install transforms3d
+    sudo apt install tf_transformations
+    pip install hilbertcurve
+    ```
+
+8. Build the workspace:
     ```bash
     colcon build
     ```
-8. Source your workspace:
+9. Source your workspace:
     ```bash
     source install/setup.bash
-    ``` 
-9. Run the Python script using ROS 2 commands:
+    ```
+    
+## running code
 
-```bash
-   python3 nav.py
-   ```
-
+1. Start Slam toolbox 
+    ```bash
+    ros2 launch slam_toolbox online_async_launch.py paramsfile:=.PATH TO ONLINE_ASYNC_LAUNCH FILE IN CONFIG use_sim_time=true
+    ```
+2. Start Lidar sensors
+   ```bash
+   ros2 launch create3_lidar_slam sensors_launch.py
+    ```
+3. launch rviz
+    ```bash
+   ros2 launch create3_lidar_slam rviz_launch.py
+    ```
+4. run nav2 launch file to enable nav services
+    ```bash
+   ros2 launch nav2_bringup navigation_launch.py
+    ```
+5. run nav2 launch file to enable localization, have to load a map, it doesn't have to actually save the map and open inside of rviz
+     ```bash
+   ros2 launch nav2_bringup localization_launch.py map.=./my_map.yaml
+    ```
+6. run hilbert curve navigation script inside of directory
+     ```bash
+   python3 Hilbertcurve.py
+    ```
 
 
 ## Conclusion
