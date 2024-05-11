@@ -174,9 +174,9 @@ This guide provides step-by-step instructions on how to download and use the cod
     ```bash
     source /opt/ros/humble/setup.bash
     ```
-
-    Install all libraries for HilbertCurve if needed, install pip if needed on a fresh device
- 7.  ```bash
+  
+ 7. Install all libraries for HilbertCurve if needed, install pip if needed on a fresh device
+    ```bash
     sudo pip3 install transforms3d
     ```
 
