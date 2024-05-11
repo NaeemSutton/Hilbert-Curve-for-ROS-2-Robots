@@ -1,4 +1,4 @@
-//credit to naeem rajaee sutton
+// Copyright (c) naeem rajaee sutton & ruth de leon
 #!/usr/bin/env python3
 
 import rclpy
