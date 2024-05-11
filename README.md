@@ -157,14 +157,13 @@ This guide provides step-by-step instructions on how to download and use the cod
 3. Navigate to the downloaded directory:
 
    ```bash
-   cd .../Hilbert-Curve-for-ROS-2-Robots
+   cd ...
    ```
-
 
 4. Ensure that the Python script has execute permissions. If not, use the chmod command to add execute permissions:
 
     ```bash
-    chmod +x hilbert_curve_navigation.py
+    chmod +x HilbertCurve.py
     ```
 
 5. Make sure ROS 2 is properly installed on your system. If not, you can follow the instructions provided earlier.
