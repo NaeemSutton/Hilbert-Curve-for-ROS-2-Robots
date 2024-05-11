@@ -1,4 +1,4 @@
-////Credit to Edouard Renard:BackendRobotics
+////Copyright Edouard Renard:BackendRobotics
 import os
 
 from launch import LaunchDescription
