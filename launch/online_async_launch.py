@@ -1,4 +1,4 @@
-// Copyright (c) Edouard Renard:BackendRobotics
+# Copyright (c) Edouard Renard:BackendRobotics
 import os
 
 from launch import LaunchDescription
